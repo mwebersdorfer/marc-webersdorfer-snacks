@@ -28,11 +28,36 @@ h2{margin:0 0 36px;color:var(--green);font-family:"Arial Black","Arial Narrow",A
 .next{padding:65px 8vw;text-align:center;background:var(--yellow)}.next strong{font-size:clamp(1.6rem,3vw,2.8rem);color:var(--blue)}
 @media(max-width:850px){nav{height:64px;padding:0 6vw;font-size:17px}nav .links{display:none}.hero{height:1080px}.copy{left:7%;top:100px;width:86%}.eyebrow{font-size:13px;margin-bottom:20px}h1{font-size:clamp(34px,6.6vw,56px);margin-top:32px}.sub{font-size:18px;margin:28px 0 0}.cta{font-size:14px;margin:18px 0 0;padding:12px 22px}.hero-photo{left:15%;top:auto;bottom:75px;width:85%}.portrait-shape{left:10%;top:auto;bottom:90px;width:85%;height:440px}.hero-curve{top:auto;height:180px}.age-grid{grid-template-columns:1fr}.big54{font-size:11rem}.proofs,.path{grid-template-columns:1fr 1fr}.path:before{display:none}}
 @media(max-width:520px){.hero{height:850px}.portrait-shape{height:340px}.hero-photo{bottom:70px}.proofs,.path{grid-template-columns:1fr}section{padding:75px 7vw}}
-@font-face{font-family:"Monas Grotesk";src:url("monasgrotesk-bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:swap;}</style></head>
+@font-face{font-family:"Monas Grotesk";src:url("monasgrotesk-bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:swap;}
+/* Bewerbungsinhalte */
+.content-section{padding:85px 7vw;background:#fff;color:var(--ink)}
+.content-section h2{color:var(--red);font-family:"Monas Grotesk","Open Sans",Arial,sans-serif;letter-spacing:-.025em;font-size:clamp(30px,4vw,65px)}
+.section-kicker{font-size:13px;letter-spacing:.12em;font-weight:800;text-transform:uppercase;color:var(--red);margin-bottom:18px}
+.section-intro{font-size:clamp(17px,1.6vw,23px);line-height:1.6;max-width:850px;margin:0 0 35px}
+.match-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.match-card{background:#f2f6df;border-radius:30px 12px 30px 12px;padding:28px}
+.match-card h3{margin:0 0 12px;font-size:19px;color:var(--red)}.match-card p{margin:0;line-height:1.65;font-size:16px}
+.result-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:42px 0 0}
+.result-stat{border-top:3px solid var(--red);padding-top:18px}.result-stat strong{display:block;font-size:clamp(30px,4vw,60px);color:var(--red)}.result-stat span{line-height:1.6}
+.practice{background:var(--red);color:#fff}.practice h2,.practice .section-kicker{color:var(--green)}
+.case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:25px}
+.case{background:#fff;color:var(--ink);border-radius:30px 12px;overflow:hidden}.case img{width:100%;height:270px;object-fit:cover;display:block}
+.case-body{padding:26px}.case h3{margin:0 0 15px;color:var(--red);font-size:23px}.case p{line-height:1.65}
+.case details{border-top:1px solid #ddd;padding-top:16px}.case summary{color:var(--red);font-weight:800;cursor:pointer}.case details p{margin-bottom:0}
+.experience{background:var(--green)}.experience-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:50px}.experience .section-intro{font-size:20px}
+.experience p{line-height:1.7}.skills-list{padding:0;list-style:none}.skills-list li{background:#fff;padding:20px 24px;margin:12px 0;border-radius:20px 8px;line-height:1.6}
+.snack-story{background:#fff}.snack-story .path:before{border-color:var(--red)}.snack-story .stop p{opacity:1;line-height:1.6}.snack-story .closing{color:var(--red)}
+.cv{background:#f2f6df}.cv-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.cv p{line-height:1.75}.cv ul{padding-left:20px;line-height:1.8}
+.contact{background:var(--red);color:#fff;text-align:center}.contact h2{color:var(--green)}.contact .section-intro{margin:0 auto 30px}
+.contact-actions{display:flex;flex-wrap:wrap;gap:18px;justify-content:center}.action{display:inline-block;background:var(--green);color:var(--red);font-weight:800;padding:17px 28px;border-radius:999px;text-decoration:none}.action.secondary{background:#fff}
+footer{padding:25px 7vw;background:#fff;color:var(--ink);text-align:center;font-size:13px;line-height:1.7}
+section[id]{scroll-margin-top:20px}
+@media(max-width:850px){.match-grid,.result-strip{grid-template-columns:1fr}.experience-grid,.cv-grid{grid-template-columns:1fr;gap:20px}.content-section{padding:60px 7vw}.case-grid{grid-template-columns:1fr}.case img{height:240px}}
+</style></head>
 <body>
-<nav><div>MARC WEBERSDORFER</div><div class="links"><a href="#erfahrung">Erfahrung</a><a href="#snacks">Snacks</a><a href="#praxis">POS & Praxis</a><a href="#lebenslauf">Lebenslauf</a><a href="#kontakt">Kontakt</a></div></nav>
+<nav><div>MARC WEBERSDORFER</div><div class="links"><a href="#belege">Erfahrung</a><a href="#snacks">Snacks</a><a href="#praxis">POS & Praxis</a><a href="#lebenslauf">Lebenslauf</a><a href="#kontakt">Kontakt</a></div></nav>
 <header class="hero">
-<div class="copy"><div class="eyebrow">Bewerbung · Bezirksleiter Großraum Frankfurt</div><h1>Mehr Erfahrung<br>für Ihren<br>Vertriebserfolg.</h1><p class="sub"><strong>25+ Jahre FMCG-Vertrieb.</strong><br><strong>12 Jahre direkt am POS.</strong><br>Und Lust auf das, was als Nächstes kommt.</p><a class="cta" href="#erfahrung">Mehr erfahren ↓</a></div>
+<div class="copy"><div class="eyebrow">Bewerbung · Bezirksleiter Großraum Frankfurt</div><h1>Mehr Erfahrung<br>für Ihren<br>Vertriebserfolg.</h1><p class="sub"><strong>25+ Jahre FMCG-Vertrieb.</strong><br><strong>12 Jahre direkt am POS.</strong><br>Und Lust auf das, was als Nächstes kommt.</p><a class="cta" href="#belege">Mehr erfahren ↓</a></div>
 <div class="portrait"><svg class="portrait-shape" viewBox="0 0 790 556" preserveAspectRatio="none" aria-hidden="true"><path fill="var(--red)" d="M35 535 C-70 400 72 228 245 130 C415 33 561 -37 659 16 C724 50 728 190 711 345 L790 556 Z"/></svg><img class="hero-photo" src="marc-hero.png" alt="Marc Webersdorfer"></div>
 <div class="hero-curve" aria-hidden="true">
 <svg viewBox="0 0 1839 950" preserveAspectRatio="none">
@@ -41,9 +66,45 @@ h2{margin:0 0 36px;color:var(--green);font-family:"Arial Black","Arial Narrow",A
 </svg>
 </div>
 </header>
-<section class="age" id="erfahrung"><div class="age-grid"><div class="big54">54</div><div><h2>Erfahrung. Aber nicht von gestern.</h2><div class="lead">Ich bin 54. Und ich sehe darin keinen Grund, um den heißen Brei herumzureden.</div><p>Ich bringe mehr als 25 Jahre Vertriebserfahrung mit. Aber Erfahrung bedeutet für mich nicht, 25 Jahre lang dasselbe zu machen.</p><p>Märkte verändern sich. Kunden verändern sich. Vertrieb verändert sich. Also entwickle ich mich mit.</p><p>Deshalb habe ich mich 2026 noch einmal intensiv weitergebildet: <strong>Digital Sales, CRM und KI im Vertrieb.</strong></p><p><strong>Erfahrung ist dann besonders wertvoll, wenn sie offen für Neues bleibt.</strong></p></div></div>
-<div class="proofs"><div class="proof"><b>DIGITAL SALES</b><span>Sales Manager – Digitaler Vertrieb (IHK)</span></div><div class="proof"><b>CRM</b><span>CRM Experte – Digitaler Vertrieb (IHK)<br>Salesforce · HubSpot · Retail-Systeme</span></div><div class="proof"><b>KI IM VERTRIEB</b><span>KI Vertriebs-Manager (IHK)</span></div><div class="proof"><b>25+ JAHRE PRAXIS</b><span>FMCG · LEH · C&amp;C · POS</span></div></div>
-<p class="hand">Das eine ersetzt das andere nicht. Genau die Kombination macht den Unterschied.</p></section>
-<section class="snacks" id="snacks"><h2>Mit Snacks hat alles angefangen.</h2><div class="path"><div class="stop"><div class="dot">POM-BÄR</div><h3>POM-BÄR</h3><p>Hier fing es an.</p></div><div class="stop"><div class="dot">CHIO</div><h3>CHIO CHIPS</h3><p>Snack-Vertrieb.</p></div><div class="stop"><div class="dot">PRINGLES</div><h3>PRINGLES</h3><p>P&amp;G.</p></div><div class="stop"><div class="dot">LORENZ?</div><h3>LORENZ?</h3><p>Vielleicht schließt sich hier der Kreis.</p></div></div><div class="closing">ZURÜCK ZU DEN SNACKS. MIT 25+ JAHREN ERFAHRUNG MEHR.</div></section>
-<div class="next" id="praxis"><strong>Als Nächstes: Ihre Anforderungen. Meine Belege.</strong></div>
+
+<section class="content-section" id="belege">
+<div class="section-kicker">Bezirksleiter · Großraum Frankfurt</div><h2>Ihre Anforderungen.<br>Meine Belege.</h2>
+<p class="section-intro">Sie suchen jemanden, der seinen Bezirk eigenständig entwickelt, Händler mit Zahlen überzeugt und Marken am POS sichtbar macht. Genau darin liegt meine Erfahrung.</p>
+<div class="match-grid">
+<article class="match-card"><h3>Den Bezirk eigenständig entwickeln.</h3><p>Ich plane Marktbesuche nach Potenzial, Handlungsbedarf und Entfernung. Jeder Besuch hat ein konkretes Ziel; Vereinbarungen und nächste Schritte verfolge ich konsequent nach.</p></article>
+<article class="match-card"><h3>Mit Kennzahlen beraten.</h3><p>Category Management, Nielsen/GfK und Handelsbetreuung gehören zu meiner Berufspraxis. Ich verbinde die wirtschaftliche Sicht des Händlers mit konkreten Maßnahmen im Markt.</p></article>
+<article class="match-card"><h3>Distribution voranbringen.</h3><p>Beim Lenor-Launch erreichte ich 90 % Distribution in zwei Wochen. Dafür waren vier Wochen vorgesehen. Neue Produkte in die Märkte zu bringen, kenne ich aus eigener Umsetzung.</p></article>
+<article class="match-card"><h3>Zweitflächen verkaufsaktiv nutzen.</h3><p>Ob Ariel, Lenor, Gillette oder Oral-B: Ich habe Platzierungen vereinbart und am POS umgesetzt. Reale Beispiele sehen Sie im nächsten Abschnitt.</p></article>
+<article class="match-card"><h3>Handelspartner für Aktionen gewinnen.</h3><p>Ich bereite Gespräche sorgfältig vor, mache den Nutzen einer Aktion konkret und halte Zusagen nach. Bei einer LKW-Aktion erreichte ich 250 % des vorgegebenen Ziels.</p></article>
+<article class="match-card"><h3>Dokumentieren und weiterlernen.</h3><p>Ich habe mit P&G-eigenen Retail-Systemen gearbeitet. 2026 habe ich meine Erfahrung um drei IHK-Zertifikate in Digital Sales, CRM und KI im Vertrieb ergänzt.</p></article>
+</div><div class="result-strip">
+<div class="result-stat"><strong>90 %</strong><span>Distribution beim Lenor-Launch in zwei statt vier Wochen.</span></div>
+<div class="result-stat"><strong>Top 10</strong><span>Platzierung im nationalen P&G-Verkaufsranking.</span></div>
+<div class="result-stat"><strong>250 %</strong><span>Zielerreichung bei einer LKW-Aktion.</span></div></div></section>
+
+<section class="content-section practice" id="praxis"><div class="section-kicker">Eigene Arbeit · echte Marktaufnahmen</div><h2>Aus der Praxis.<br>Direkt vom POS.</h2>
+<p class="section-intro">Hier wird meine Erfahrung konkret: Produkte sichtbar machen, Aktionen durchsetzen und aus einem Marktbesuch einen nächsten Schritt machen.</p>
+<div class="case-grid">
+<article class="case"><img src="https://mwebersdorfer.github.io/marc-webersdorfer-bewerbung/pos-lenor-mall.jpg" alt="Lenor-Zweitplatzierung aus meiner Vertriebspraxis" loading="lazy"><div class="case-body"><h3>Eine Neueinführung sichtbar machen.</h3><p>Beim Lenor-Launch hatte ich bundesweit die meisten Zweitplatzierungen. Gleichzeitig erreichte ich 90 % Distribution in zwei Wochen.</p><details><summary>Was ich für Lorenz mitbringe</summary><p>Erfahrung darin, Distribution und zusätzliche Sichtbarkeit gemeinsam voranzutreiben. Im Gespräch erläutere ich gern, wie ich die Händler für die Einführung gewonnen habe.</p></details></div></article>
+<article class="case"><img src="https://mwebersdorfer.github.io/marc-webersdorfer-bewerbung/pos-lenor-lkw.jpg" alt="Lenor-LKW-Aktion aus meiner Vertriebspraxis" loading="lazy"><div class="case-body"><h3>Ein Aktionsziel übertreffen.</h3><p>Bei einer LKW-Aktion erreichte ich 250 % des Ziels durch gezielte, priorisierte Handelsansprache.</p><details><summary>Was ich für Lorenz mitbringe</summary><p>Ich wähle geeignete Handelspartner bewusst aus, bereite die Ansprache vor und bleibe an Vereinbarungen dran. Die konkrete Aktion ist ein guter Ausgangspunkt für unser Gespräch.</p></details></div></article>
+<article class="case"><img src="https://mwebersdorfer.github.io/marc-webersdorfer-bewerbung/pos-gillette.jpg" alt="Gillette-Platzierung aus meiner Vertriebspraxis" loading="lazy"><div class="case-body"><h3>Vereinbarungen auf die Fläche bringen.</h3><p>Meine Praxis umfasst Platzierungen für Gillette und weitere P&G-Marken. Entscheidend ist für mich die tatsächliche Umsetzung im Markt.</p><details><summary>Wie ich am POS arbeite</summary><p>Ich überprüfe Platzierungsqualität und Verfügbarkeit, halte Beobachtungen fest und vereinbare nächste Schritte. Wenn Unterstützung bei der Umsetzung nötig ist, packe ich mit an.</p></details></div></article>
+<article class="case"><img src="https://mwebersdorfer.github.io/marc-webersdorfer-bewerbung/pos-ariel.jpg" alt="Ariel-POS-Aufbau aus meiner Vertriebspraxis" loading="lazy"><div class="case-body"><h3>Jeden Besuch gezielt nutzen.</h3><p>Sortimentslücke schließen, Regalqualität verbessern, Zweitplatzierung vorbereiten: Für jeden Besuch definiere ich ein konkretes Ziel.</p><details><summary>Wie ich einen Bezirk steuere</summary><p>Ich priorisiere Kunden nach Potenzial und Handlungsbedarf, plane wirtschaftliche Touren und dokumentiere Vereinbarungen. Kennzahlen und Beobachtungen bestimmen die nächsten Maßnahmen.</p></details></div></article>
+</div></section>
+
+<section class="content-section experience" id="erfahrung"><div class="section-kicker">Erfahrung, die sich weiterentwickelt</div><h2>Viel Erfahrung.<br>Und noch viel vor.</h2>
+<div class="experience-grid"><div><p class="section-intro">Ich bin 54. Ich bringe mehr als 25 Jahre FMCG-Vertrieb mit – und habe mich 2026 noch einmal gezielt weitergebildet.</p>
+<p>Im Handel habe ich gelernt, zuzuhören, Einwände einzuordnen und Vereinbarungen verlässlich umzusetzen. Ich kenne den Druck im Markt und die Bedeutung einer Lösung, die auch für den Händler wirtschaftlich funktioniert.</p>
+<p>Diese Erfahrung möchte ich bei Lorenz einbringen. Gleichzeitig arbeite ich mich in neue Systeme und Arbeitsweisen ein. Dafür stehen auch meine aktuellen Abschlüsse.</p>
+<p><strong>Die Kombination aus Handelskenntnis, Umsetzungspraxis und Lernbereitschaft ist mein Beitrag zu Ihrem Vertrieb.</strong></p></div>
+<div><ul class="skills-list"><li><strong>Sales Manager – Digitaler Vertrieb (IHK)</strong><br>Abschluss 2026</li><li><strong>CRM Experte – Digitaler Vertrieb (IHK)</strong><br>Salesforce und HubSpot im Rahmen der Weiterbildung</li><li><strong>KI Vertriebs-Manager (IHK)</strong><br>Abschluss 2026</li><li><strong>Systempraxis aus dem Berufsalltag</strong><br>P&G-eigene Retail-Systeme · SAP · Nielsen/GfK</li></ul></div></div></section>
+
+<section class="content-section snack-story" id="snacks"><div class="section-kicker">Warum Lorenz?</div><h2>Mit Snacks hat<br>alles angefangen.</h2>
+<p class="section-intro">Pom-Bär und Chio gehörten zu meinen ersten Marken im Lebensmittelhandel. Bei P&G kam Pringles dazu. Bei Lorenz möchte ich diese Verbindung weiterführen: starke Snack-Marken, nah am Handel und mit eigener Verantwortung für den Bezirk.</p>
+<div class="path"><div class="stop"><div class="dot">POM-BÄR</div><h3>Der Einstieg.</h3><p>Meine ersten Erfahrungen<br>im FMCG-Vertrieb.</p></div><div class="stop"><div class="dot">CHIO</div><h3>Der Handel.</h3><p>Snack-Marken<br>im Markt vertreten.</p></div><div class="stop"><div class="dot">PRINGLES</div><h3>P&amp;G.</h3><p>Internationale Marken und<br>professionelle Vertriebsprozesse.</p></div><div class="stop"><div class="dot">LORENZ?</div><h3>Der nächste Schritt.</h3><p>Meine Erfahrung für Ihren<br>Bezirk im Großraum Frankfurt.</p></div></div>
+<p class="closing">Zurück zu den Snacks.<br>Mit 25+ Jahren Erfahrung mehr.</p></section>
+
+<section class="content-section cv" id="lebenslauf"><div class="section-kicker">Marc Webersdorfer · Dipl.-Betriebswirt (FH)</div><h2>Mein Weg.<br>Ihr möglicher Bezirksleiter.</h2><div class="cv-grid"><div><p>Meine Vertriebslaufbahn führte mich von Wolf Bergstraße und Intersnack zu Procter &amp; Gamble. Dort war ich 23 Jahre tätig, unter anderem als Field Account Manager sowie in Category Management und Market Planning.</p><p>Mein Schwerpunkt liegt im Lebensmittelhandel, Cash &amp; Carry und Elektrofachhandel. Zwölf Jahre war ich als Field Account Manager unmittelbar im Außendienst am POS tätig.</p></div><div><ul><li>Betriebswirtschaftlicher Hochschulabschluss</li><li>25+ Jahre FMCG-Vertrieb</li><li>Rhein-Main als Wohnregion</li><li>Reisebereitschaft und Führerschein Klasse B</li><li>Sofort verfügbar</li><li>Aktuelle Weiterbildung: Digital Sales, CRM und KI</li></ul><p>Meinen vollständigen Lebenslauf finden Sie in meinen Bewerbungsunterlagen. Einzelne Stationen und Erfolge erläutere ich gern persönlich.</p></div></div></section>
+
+<section class="content-section contact" id="kontakt"><div class="section-kicker">Bewerbung · Bezirksleiter Großraum Frankfurt</div><h2>Lernen wir uns kennen?</h2><p class="section-intro">Ich möchte Lorenz im Großraum Frankfurt im Handel voranbringen. Lassen Sie uns darüber sprechen, wie ich meine Erfahrung und Ideen in Ihren Bezirk einbringen kann.</p><div class="contact-actions"><a class="action" href="mailto:marcwebersdorfer@hotmail.de?subject=Gespr%C3%A4ch%20zur%20Bewerbung%20bei%20Lorenz">Gespräch per E-Mail vereinbaren</a><a class="action secondary" href="https://www.linkedin.com/in/marc-webersdorfer" target="_blank" rel="noopener noreferrer">Mein LinkedIn-Profil</a></div><p>Marc Webersdorfer · Sofort verfügbar · Rhein-Main</p></section>
+<footer>Persönliche Bewerbungsseite von Marc Webersdorfer für Lorenz.<br>POS-Fotos zeigen eigene Vertriebsarbeit mit früher betreuten Marken.</footer>
 </body></html>
