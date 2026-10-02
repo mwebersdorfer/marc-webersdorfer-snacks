@@ -68,6 +68,16 @@ section[id]{scroll-margin-top:20px}
 @media(max-width:850px){.snack-story .path{gap:45px 30px}.snack-story .stop:after{display:none}.snack-pack,.snack-future{height:240px}}
 @media(max-width:520px){.snack-story .path{grid-template-columns:1fr 1fr;gap:35px 20px}.snack-pack,.snack-future{height:185px}.snack-story .stop h3{font-size:18px}.snack-story .stop p{font-size:14px}.lorenz-word{font-size:40px}}
 .lorenz-logo{display:block;width:90%;max-width:240px;height:auto;transform:none;color:var(--red)}
+
+/* Bewegte Snack-Laufbahn; Beschriftungen bleiben auf gemeinsamer Linie. */
+.snack-story .path{padding-top:22px}
+.snack-story .stop:nth-child(1) .snack-pack img{transform:translateY(14px) rotate(-4deg)}
+.snack-story .stop:nth-child(2) .snack-pack img{transform:translateY(-20px) rotate(3deg) scale(1.15)}
+.snack-story .stop:nth-child(3) .snack-pack img{transform:translateY(18px) rotate(-3deg)}
+.snack-story .stop:nth-child(1):after{top:92px;transform:rotate(-9deg)}
+.snack-story .stop:nth-child(2):after{top:100px;transform:rotate(9deg)}
+.snack-story .stop:nth-child(3):after{top:107px;transform:rotate(-5deg)}
+@media(max-width:850px){.snack-story .stop:nth-child(1) .snack-pack img{transform:translateY(8px) rotate(-4deg)}.snack-story .stop:nth-child(2) .snack-pack img{transform:translateY(-12px) rotate(3deg) scale(1.15)}.snack-story .stop:nth-child(3) .snack-pack img{transform:translateY(10px) rotate(-3deg)}}
 </style></head>
 <body>
 <nav><div>MARC WEBERSDORFER</div><div class="links"><a href="#belege">Erfahrung</a><a href="#snacks">Snacks</a><a href="#praxis">POS & Praxis</a><a href="#lebenslauf">Lebenslauf</a><a href="#kontakt">Kontakt</a></div></nav>
