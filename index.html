@@ -53,6 +53,20 @@ h2{margin:0 0 36px;color:var(--green);font-family:"Arial Black","Arial Narrow",A
 footer{padding:25px 7vw;background:#fff;color:var(--ink);text-align:center;font-size:13px;line-height:1.7}
 section[id]{scroll-margin-top:20px}
 @media(max-width:850px){.match-grid,.result-strip{grid-template-columns:1fr}.experience-grid,.cv-grid{grid-template-columns:1fr;gap:20px}.content-section{padding:60px 7vw}.case-grid{grid-template-columns:1fr}.case img{height:240px}}
+
+.snack-story .path:before{display:none}
+.snack-story .path{gap:45px;align-items:start}
+.snack-story .stop{position:relative}
+.snack-story .stop:not(:last-child):after{content:"→";position:absolute;right:-38px;top:105px;font-size:45px;font-weight:800;color:var(--red)}
+.snack-pack{height:270px;display:flex;align-items:center;justify-content:center}
+.snack-pack img{display:block;width:100%;height:100%;object-fit:contain}
+.snack-pack.chio img{transform:scale(1.15)}
+.snack-future{height:270px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.lorenz-word{font-family:"Brush Script MT","Segoe Script",cursive;font-size:clamp(38px,5vw,76px);font-style:italic;font-weight:800;color:var(--red);transform:rotate(-9deg)}
+.snack-future span{margin-top:20px;font-weight:800;color:var(--red)}
+.snack-story .stop h3{margin-top:25px}
+@media(max-width:850px){.snack-story .path{gap:45px 30px}.snack-story .stop:after{display:none}.snack-pack,.snack-future{height:240px}}
+@media(max-width:520px){.snack-story .path{grid-template-columns:1fr 1fr;gap:35px 20px}.snack-pack,.snack-future{height:185px}.snack-story .stop h3{font-size:18px}.snack-story .stop p{font-size:14px}.lorenz-word{font-size:40px}}
 </style></head>
 <body>
 <nav><div>MARC WEBERSDORFER</div><div class="links"><a href="#belege">Erfahrung</a><a href="#snacks">Snacks</a><a href="#praxis">POS & Praxis</a><a href="#lebenslauf">Lebenslauf</a><a href="#kontakt">Kontakt</a></div></nav>
@@ -100,7 +114,7 @@ section[id]{scroll-margin-top:20px}
 
 <section class="content-section snack-story" id="snacks"><div class="section-kicker">Warum Lorenz?</div><h2>Mit Snacks hat<br>alles angefangen.</h2>
 <p class="section-intro">Pom-Bär und Chio gehörten zu meinen ersten Marken im Lebensmittelhandel. Bei P&G kam Pringles dazu. Bei Lorenz möchte ich diese Verbindung weiterführen: starke Snack-Marken, nah am Handel und mit eigener Verantwortung für den Bezirk.</p>
-<div class="path"><div class="stop"><div class="dot">POM-BÄR</div><h3>Der Einstieg.</h3><p>Meine ersten Erfahrungen<br>im FMCG-Vertrieb.</p></div><div class="stop"><div class="dot">CHIO</div><h3>Der Handel.</h3><p>Snack-Marken<br>im Markt vertreten.</p></div><div class="stop"><div class="dot">PRINGLES</div><h3>P&amp;G.</h3><p>Internationale Marken und<br>professionelle Vertriebsprozesse.</p></div><div class="stop"><div class="dot">LORENZ?</div><h3>Der nächste Schritt.</h3><p>Meine Erfahrung für Ihren<br>Bezirk im Großraum Frankfurt.</p></div></div>
+<div class="path"><div class="stop"><div class="snack-pack"><img src="assets/snacks/pom-baer.png" alt="Pom-Bär Original – Produktpackung" loading="lazy"></div><h3>Pom-Bär · Der Einstieg.</h3><p>Meine ersten Erfahrungen<br>im FMCG-Vertrieb.</p></div><div class="stop"><div class="snack-pack chio"><img src="assets/snacks/chio.png" alt="Chio Red Paprika – Produktpackung" loading="lazy"></div><h3>Chio · Der Handel.</h3><p>Snack-Marken<br>im Markt vertreten.</p></div><div class="stop"><div class="snack-pack"><img src="assets/snacks/pringles.jpg" alt="Pringles Sour Cream &amp; Onion – Produktdose" loading="lazy"></div><h3>Pringles · P&amp;G.</h3><p>Internationale Marken und<br>professionelle Vertriebsprozesse.</p></div><div class="stop"><div class="snack-future"><div class="lorenz-word">Lorenz</div><span>Mein nächster Schritt?</span></div><h3>Der nächste Schritt.</h3><p>Meine Erfahrung für Ihren<br>Bezirk im Großraum Frankfurt.</p></div></div>
 <p class="closing">Zurück zu den Snacks.<br>Mit 25+ Jahren Erfahrung mehr.</p></section>
 
 <section class="content-section cv" id="lebenslauf"><div class="section-kicker">Marc Webersdorfer · Dipl.-Betriebswirt (FH)</div><h2>Mein Weg.<br>Ihr möglicher Bezirksleiter.</h2><div class="cv-grid"><div><p>Meine Vertriebslaufbahn führte mich von Wolf Bergstraße und Intersnack zu Procter &amp; Gamble. Dort war ich 23 Jahre tätig, unter anderem als Field Account Manager sowie in Category Management und Market Planning.</p><p>Mein Schwerpunkt liegt im Lebensmittelhandel, Cash &amp; Carry und Elektrofachhandel. Zwölf Jahre war ich als Field Account Manager unmittelbar im Außendienst am POS tätig.</p></div><div><ul><li>Betriebswirtschaftlicher Hochschulabschluss</li><li>25+ Jahre FMCG-Vertrieb</li><li>Rhein-Main als Wohnregion</li><li>Reisebereitschaft und Führerschein Klasse B</li><li>Sofort verfügbar</li><li>Aktuelle Weiterbildung: Digital Sales, CRM und KI</li></ul><p>Meinen vollständigen Lebenslauf finden Sie in meinen Bewerbungsunterlagen. Einzelne Stationen und Erfolge erläutere ich gern persönlich.</p></div></div></section>
